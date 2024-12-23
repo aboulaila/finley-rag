@@ -3,8 +3,8 @@ from typing import List
 from llama_index.core import Document
 from llama_index.vector_stores.mongodb import MongoDBAtlasVectorSearch
 
-from Config import Config
-import MongoDBClient
+from classes.Config import Config
+from classes import MongoDBClient
 
 
 class VectorStore:

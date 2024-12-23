@@ -6,9 +6,9 @@ from llama_index.core.schema import MetadataMode
 from llama_index.llms.anthropic import Anthropic
 from tqdm import tqdm
 
-from Config import Config
-from DocumentProcessor import DocumentProcessor
-from EmbeddingModel import EmbeddingModel
+from classes.Config import Config
+from classes.DocumentProcessor import DocumentProcessor
+from classes.EmbeddingModel import EmbeddingModel
 from MongoDBClient import MongoDBClient
 from QueryEngineSetup import QueryEngineSetup
 from VectorStore import VectorStore

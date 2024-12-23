@@ -1,6 +1,6 @@
 from llama_index.llms.anthropic import Anthropic
 
-from LaptopStoreAssistant import LaptopStoreAssistant
+from classes.LaptopStoreAssistant import LaptopStoreAssistant
 
 
 def main():

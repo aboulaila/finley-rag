@@ -4,8 +4,8 @@ from llama_index.core.tools import QueryEngineTool, ToolMetadata
 from llama_index.llms.anthropic import Anthropic
 from llama_index.vector_stores.mongodb import MongoDBAtlasVectorSearch
 
-import MongoDBClient
-from Config import Config
+from classes import MongoDBClient
+from classes.Config import Config
 
 
 class QueryEngineSetup:
